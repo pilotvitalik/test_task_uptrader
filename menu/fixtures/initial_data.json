@@ -1,0 +1,21 @@
+[
+    {
+        "model": "menu.menu",
+        "pk": 1,
+        "fields": {
+            "name": "main_menu"
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 1,
+        "fields": {
+            "menu": 1,
+            "parent": null,
+            "name": "Home",
+            "url": "/",
+            "named_url": "",
+            "order": 0
+        }
+    }
+]
